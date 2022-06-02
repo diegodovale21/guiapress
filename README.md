@@ -19,15 +19,25 @@ Blog Guia do progamador para postagem de artigos, desenvolvido com Node.js
 ## Para execução do projeto
 
 1 - Instale todas as bibliotecas usadas no projeto
+
 > npm init  (iniciar projeto node);
+
 > npm install --save express (instalar o express);
+
 > npm install --save sequelize (instalar o sequelize);
+
 > npm install --save mysql2 (instalar o mysql2 - dependência que o sequelize tem para se conectar com o mysql);
+
 > npm install --save body-parser (instalar o body parser - biblioteca expecifica do express que usamos para trabalhar com formulários );
+ 
 > npm install --save ejs (template engine -  para redenrizar HTML);
+
 > npm install --save slugify (biblioteca que conseguimos transformar uma string em um slug);
+
 > npm install --save bcryptjs (senha em modo hash);
+
 > npm install express-sesion --save(sessões express);
+
 > npm run dev (para rodar o projeto no servidor);
 
 Entre na rota 8080 pelo navegador (https://localhost:8080)
